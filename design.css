@@ -1,3 +1,9 @@
 body {
 	font-family: 'Josefin Slab', serif;
 }
+h1, h2 {
+	color: #00E5E1;  
+}
+h3 {
+	color: #CF7AFF;
+}
