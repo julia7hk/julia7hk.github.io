@@ -1,12 +1,23 @@
+html {
+	height: 100%;
+}
+
 body {
-	font-family: 'Josefin Slab', serif;
-	background: url(https://i.pinimg.com/originals/ef/2b/d5/ef2bd574dbbc55f0479a5e187e7ae3a5.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background: linear-gradient(to bottom, rgb(212, 212, 250), rgb(0, 255, 255));
+	height: 100%;
 }
-h1, h2 {
-	color: #00E5E1;  
+
+h1 {
+	text-align: center;
 }
-h3 {
-	color: #CF7AFF;
+
+h4 {
+	text-align: center;
+	height: 20%;
+}
+
+h5 {
+	text-align: center;
+
+	/* background-color: lightskyblue; */
 }
