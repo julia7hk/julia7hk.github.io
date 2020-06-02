@@ -21,3 +21,12 @@ h5 {
 
 	/* background-color: lightskyblue; */
 }
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: rgb(70, 70, 70);
+	color: white;
+	text-align: center;
+}
