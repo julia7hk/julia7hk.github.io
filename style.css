@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gradient {
+    background: rgb(249,223,220);
+    background: linear-gradient(135deg, rgba(249,223,220,1) 0%, rgba(10,129,171,1) 100%);
+}
+
+.page-header {
+    margin-top: 4rem;
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.feature {
+    color: #fff;
+}
+
+/* .feature ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.feature ul li {
+    padding-left: 2rem;
+    background-image: url(../julia7k.github.io/img/check.svg);
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+} */
