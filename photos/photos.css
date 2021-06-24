@@ -1,9 +1,15 @@
+html, body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
 h1 {
-	font-family: 'Text Me One', sans-serif;
 	margin: 30px;
 	border-bottom: 2px solid #E8E8E8; 
 	width: 30%;
 	padding: 20px;
+	padding-top: 40px;
 }
 img {
 	height: 300px;
