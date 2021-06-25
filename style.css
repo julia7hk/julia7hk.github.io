@@ -67,3 +67,7 @@ a {
     text-decoration: none;
     margin: 0;
 }
+
+#projects .container {
+    padding-top: 100px;
+}
