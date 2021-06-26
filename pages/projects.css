@@ -3,3 +3,29 @@ html, body {
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
+
+h1 {
+	margin: 30px;
+	border-bottom: 2px solid #E8E8E8; 
+	width: 30%;
+	padding: 20px;
+	padding-top: 40px;
+}
+
+.gradient {
+    background: rgb(249,223,220);
+    background: linear-gradient(135deg, rgba(249,223,220,1) 0%, rgba(10,129,171,1) 100%);
+}
+
+footer {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+}

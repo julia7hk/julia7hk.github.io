@@ -11,10 +11,29 @@ h1 {
 	padding: 20px;
 	padding-top: 40px;
 }
+
 img {
 	height: 300px;
 	width: 30%;
 	float: left;
 	margin: 1.66%;
 	object-fit: cover;
+}
+
+.gradient {
+    background: rgb(249,223,220);
+    background: linear-gradient(135deg, rgba(249,223,220,1) 0%, rgba(10,129,171,1) 100%);
+}
+
+footer {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
 }
