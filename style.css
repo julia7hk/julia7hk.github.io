@@ -1,16 +1,21 @@
-html, body {
+html,
+body {
     height: 100%;
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .gradient {
-    background: rgb(249,223,220);
-    background: linear-gradient(135deg, rgba(249,223,220,1) 0%, rgba(10,129,171,1) 100%);
+    background: rgb(249, 223, 220);
+    background: linear-gradient(135deg, rgba(249, 223, 220, 1) 0%, rgba(10, 129, 171, 1) 100%);
+}
+
+.navbar {
+    font-size: 1.25rem;
 }
 
 .page-header {
-    margin-top: 4rem;
+    margin-top: 2.75rem;
     font-size: 1.25rem;
     color: #fff;
 }
@@ -55,13 +60,6 @@ html, body {
     color: #fff;
 }
 
-footer {
-    color: #fff;
-    font-size: 1rem;
-    margin: 0;
-    padding: 1rem;
-}
-
 a {
     color: #fff;
     text-decoration: none;
@@ -70,4 +68,52 @@ a {
 
 #projects .container {
     padding-top: 100px;
+}
+
+.footer-basic {
+    padding: 40px 0;
+    color: #fff;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-basic li {
+    padding: 0 10px;
+}
+
+.footer-basic ul a {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity: 1;
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+    opacity: 1;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 0;
 }
